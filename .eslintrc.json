@@ -1,0 +1,11 @@
+{
+  "extends": "wojtekmaj/react-no-automatic-runtime",
+  "overrides": [
+    {
+      "files": ["sample/**", "test/**"],
+      "rules": {
+        "import/no-unresolved": "off"
+      }
+    }
+  ]
+}
